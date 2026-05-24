@@ -31,7 +31,6 @@ body {
 /* navbar */
 .navbar {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 1.4rem 7%;
   background-color: rgba(0, 0, 0, 0.8);
@@ -43,6 +42,7 @@ body {
   z-index: 9999;
 }
 
+
 .navbar .navbar-logo {
   font-family: "Bawiswara";
   font-size: 2rem;
@@ -50,12 +50,17 @@ body {
   color: #c90101;
   letter-spacing: 3px;
 }
+.navbar .navbar-nav {
+  margin-left:40rem;
+  margin-right: auto;
+}
 
 .navbar .navbar-nav a {
   color: #fff;
   display: inline-block;
   font-size: 1.3rem;
   margin: 0 1rem;
+ 
 }
 
 .navbar .navbar-nav a:hover {
