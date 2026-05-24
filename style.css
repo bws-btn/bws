@@ -17,11 +17,15 @@
   text-decoration: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   background-color: var(--bg);
   color: #fff;
-  min-height: 3000px;
+
 }
 
 /* navbar */
@@ -89,7 +93,7 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url("bawiswara3.png");
+  background-image: url("bawiswara5.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -284,8 +288,38 @@ body {
   font-size: 0.9rem;
   line-height: 1.4;
 }
-/* media queries */
 
+
+/* footer */
+footer {
+  background-color: #333533;
+  text-align: center;
+  padding: 1rem 0 1rem;
+  margin-top: 3rem;
+}
+
+footer .links {
+  margin-bottom: 1.4rem;
+}
+
+footer .links a:hover {
+  color: var(--bg);
+}
+
+footer .links a {
+  color: #fff;
+  padding: 0.7rem 1rem;
+}
+
+footer .credit {
+  font-size: 0.8rem;
+}
+
+footer .credit a {
+  color: #d9d77e;
+  font-weight: 800;
+}
+/* media queries */
 /* laptop */
 @media (max-width: 1366px) {
   html {
